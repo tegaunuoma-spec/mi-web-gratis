@@ -3,51 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Búnker Digital - Protagonista</title>
+    <title>Búnker Digital - Espectro Muted</title>
     <style>
+        :root {
+            --bg-principal: #161920;      /* Fondo profundo */
+            --bg-tarjeta: #1f242e;        /* Contenedor */
+            --texto: #e4e7ed;             /* Blanco ceniza */
+            --pastel-azul: #6c8eae;       /* Azul Muted */
+            --pastel-rojo: #b86b6b;       /* Rojo Muted */
+            --pastel-verde: #76a085;      /* Verde Muted */
+            --borde: #2d3545;
+        }
+
         body {
-            background-color: #0d1117;
-            color: #c9d1d9;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-principal);
+            color: var(--texto);
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
+
         .container {
             text-align: center;
-            border: 1px solid #30363d;
+            border: 1px solid var(--borde);
             padding: 40px;
-            border-radius: 12px;
-            background: #161b22;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+            border-radius: 16px;
+            background: var(--bg-tarjeta);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+            max-width: 420px;
+            width: 90%;
         }
+
         h1 {
-            color: #58a6ff;
-            margin-bottom: 10px;
+            color: var(--pastel-azul);
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            font-weight: 600;
         }
+
         p {
-            color: #8b949e;
-            font-size: 1.1em;
+            color: #a0aec0;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 25px;
         }
-        .status {
-            display: inline-block;
-            padding: 6px 12px;
-            background: #238636;
-            color: white;
-            border-radius: 20px;
+
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .badge {
+            padding: 8px 16px;
+            border-radius: 8px;
             font-size: 0.85em;
             font-weight: bold;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
         }
+
+        /* Aplicando el tinte sutil usando opacidad en el fondo */
+        .badge.azul { background-color: rgba(108, 142, 174, 0.12); color: var(--pastel-azul); border: 1px solid var(--pastel-azul); }
+        .badge.rojo { background-color: rgba(184, 107, 107, 0.12); color: var(--pastel-rojo); border: 1px solid var(--pastel-rojo); }
+        .badge.verde { background-color: rgba(118, 160, 133, 0.12); color: var(--pastel-verde); border: 1px solid var(--pastel-verde); }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Portal de Operaciones Estelares</h1>
-        <p>Sistemas locales sincronizados. Proyecto Web en línea.</p>
-        <div class="status">NÚCLEO ONLINE</div>
+        <h1>Espectro de Operaciones</h1>
+        <p>Calibración estética completada. Los indicadores pastel oscuros se han desplegado de forma segura en la interfaz pública.</p>
+        <div class="badge-container">
+            <span class="badge azul">Navegación</span>
+            <span class="badge rojo">Alerta</span>
+            <span class="badge verde">Seguro</span>
+        </div>
     </div>
 </body>
 </html>
-
