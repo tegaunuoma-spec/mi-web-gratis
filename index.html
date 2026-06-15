@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consola de Audio - Base de Datos</title>
+    <title>Consola Cuántica - YouTube Music API</title>
     <style>
         :root {
             --bg-principal: #161920;
@@ -11,7 +11,6 @@
             --texto: #e4e7ed;
             --texto-secundario: #8a95a5;
             --pastel-azul: #6c8eae;
-            --pastel-rojo: #b86b6b;
             --borde: #2d3545;
         }
 
@@ -24,7 +23,6 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            padding: 20px 0;
         }
 
         .bunker-panel {
@@ -62,7 +60,6 @@
             font-weight: bold;
         }
 
-        /* Input de Búsqueda Estilizado */
         .search-box {
             width: 100%;
             padding: 12px;
@@ -72,81 +69,78 @@
             color: var(--texto);
             font-size: 0.9rem;
             box-sizing: border-box;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             outline: none;
-            transition: border-color 0.3s;
         }
         .search-box:focus {
             border-color: var(--pastel-azul);
         }
 
-        /* Lista Ordenada Estilizada */
+        .info-tip {
+            font-size: 0.75rem;
+            color: var(--texto-secundario);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Lista Dinámica de Resultados */
         .track-list {
             max-height: 250px;
             overflow-y: auto;
             margin-bottom: 25px;
-            padding-left: 20px;
+            padding-left: 0;
+            list-style: none;
             border-top: 1px solid rgba(255,255,255,0.05);
             padding-top: 15px;
         }
 
         .track-item {
-            padding: 10px;
-            margin-bottom: 5px;
-            border-radius: 6px;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 8px;
             cursor: pointer;
-            transition: background 0.2s;
-            font-size: 0.9rem;
+            background: rgba(0,0,0,0.15);
+            border: 1px solid rgba(255,255,255,0.02);
+            transition: all 0.2s;
+            font-size: 0.85rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .track-item:hover {
             background: rgba(108, 142, 174, 0.1);
+            border-color: var(--pastel-azul);
             color: var(--pastel-azul);
         }
 
-        /* Scrollbar personalizado para la lista */
-        .track-list::-webkit-scrollbar {
-            width: 6px;
-        }
-        .track-list::-webkit-scrollbar-thumb {
-            background: var(--borde);
-            border-radius: 3px;
+        .track-duration {
+            font-size: 0.75rem;
+            color: var(--texto-secundario);
         }
 
         audio {
             width: 100%;
-            opacity: 0.9;
         }
     </style>
 </head>
 <body>
 
     <div class="bunker-panel">
-        <h1>Búnker de Transmisión</h1>
+        <h1>Consola de Red Global</h1>
         
         <div class="status-monitor">
-            <span>📡 CANAL: </span>
-            <span id="track-titulo">Ninguna pista en reproducción</span>
+            <span>📡 REPRODUCIENDO: </span>
+            <span id="track-titulo">Ninguna pista armada</span>
         </div>
 
-        <input type="text" id="buscador" class="search-box" placeholder="Buscar artista, canción o género...">
+        <input type="text" id="buscador" class="search-box" placeholder="Escribe una canción y pulsa Enter...">
+        <div class="info-tip">Presiona la tecla Enter para buscar en la base de datos</div>
         
-        <ol id="lista-canciones" class="track-list">
-            <li class="track-item" data-url="musica/musica_bunker.mp3" data-name="Mi Pista Inicial (Búnker)">
-                <strong>Tu Música Local</strong> - Mi Pista Inicial
+        <ul id="lista-canciones" class="track-list">
+            <li style="text-align: center; color: var(--texto-secundario); padding: 20px;">
+                La base de datos está vacía. Esperando consulta...
             </li>
-            <li class="track-item" data-url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" data-name="SoundHelix - Frecuencia Alfa 01">
-                <strong>SoundHelix</strong> - Frecuencia Alfa 01
-            </li>
-            <li class="track-item" data-url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" data-name="SoundHelix - Frecuencia Beta 02">
-                <strong>SoundHelix</strong> - Frecuencia Beta 02
-            </li>
-            <li class="track-item" data-url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" data-name="SoundHelix - Pulso Gamma 03">
-                <strong>SoundHelix</strong> - Pulso Gamma 03
-            </li>
-            <li class="track-item" data-url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" data-name="SoundHelix - Orbita Delta 04">
-                <strong>SoundHelix</strong> - Orbita Delta 04
-            </li>
-        </ol>
+        </ul>
 
         <audio id="reproductor" controls>
             <source id="audio-origen" src="" type="audio/mpeg">
@@ -158,36 +152,70 @@
         const audioOrigen = document.getElementById('audio-origen');
         const trackTitulo = document.getElementById('track-titulo');
         const buscador = document.getElementById('buscador');
-        const items = document.querySelectorAll('.track-item');
+        const listaCanciones = document.getElementById('lista-canciones');
 
-        // Lógica de reproducción al hacer clic en un elemento de la lista
-        items.forEach(item => {
-            item.addEventListener('click', function() {
-                const urlCancion = this.getAttribute('data-url');
-                const nombreCancion = this.getAttribute('data-name');
-
-                audioOrigen.src = urlCancion;
-                trackTitulo.textContent = nombreCancion;
-
-                reproductor.load();
-                reproductor.play();
-            });
-        });
-
-        // El motor de filtrado en tiempo real (Buscador)
-        buscador.addEventListener('input', function() {
-            const filtro = this.value.toLowerCase();
-            
-            items.forEach(item => {
-                const textoItem = item.textContent.toLowerCase();
-                // Si el texto de la canción incluye lo que escribes, se queda. Si no, se oculta.
-                if(textoItem.includes(filtro)) {
-                    item.style.display = "list-item";
-                } else {
-                    item.style.display = "none";
+        // Escuchamos cuando presionas 'Enter' en el buscador
+        buscador.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                const query = this.value.trim();
+                if (query.length > 2) {
+                    buscarEnCatalogo(query);
                 }
-            });
+            }
         });
+
+        // Conexión asíncrona con la API pública de música
+        async function buscarEnCatalogo(cancion) {
+            listaCanciones.innerHTML = '<li style="text-align: center; color: var(--pastel-azul); padding: 20px;">Buscando en la matriz...</li>';
+            
+            try {
+                // Usamos una API espejo de simulación de streaming libre (basada en bases de datos abiertas)
+                const respuesta = await fetch(`https://itunes.apple.com/search?term=${encodeURIComponent(cancion)}&media=music&limit=10`);
+                const datos = await respuesta.json();
+                
+                listaCanciones.innerHTML = ''; // Limpiamos el mensaje de carga
+
+                if (datos.resultCount === 0) {
+                    listaCanciones.innerHTML = '<li style="text-align: center; color: var(--pastel-rojo); padding: 20px;">No se encontraron resultados en la red.</li>';
+                    return;
+                }
+
+                // Inyectamos dinámicamente los resultados encontrados
+                datos.results.forEach(track => {
+                    const li = document.createElement('li');
+                    li.className = 'track-item';
+                    // Guardamos la URL de streaming real en los atributos de datos
+                    li.setAttribute('data-url', track.previewUrl);
+                    li.setAttribute('data-name', `${track.artistName} - ${track.trackName}`);
+                    
+                    // Convertimos milisegundos a formato minutos:segundos
+                    const min = Math.floor(track.trackTimeMillis / 60000);
+                    const seg = ((track.trackTimeMillis % 60000) / 1000).toFixed(0).padStart(2, '0');
+
+                    li.innerHTML = `
+                        <div>
+                            <strong>${track.trackName}</strong><br>
+                            <span style="color: var(--texto-secundario); font-size: 0.75rem;">${track.artistName}</span>
+                        </div>
+                        <span class="track-duration">${min}:${seg}</span>
+                    `;
+
+                    // Asignamos el evento de reproducción a este nuevo elemento vivo
+                    li.addEventListener('click', function() {
+                        audioOrigen.src = this.getAttribute('data-url');
+                        trackTitulo.textContent = this.getAttribute('data-name');
+                        reproductor.load();
+                        reproductor.play();
+                    });
+
+                    listaCanciones.appendChild(li);
+                });
+
+            } catch (error) {
+                console.error("Error en la conexión:", error);
+                listaCanciones.innerHTML = '<li style="text-align: center; color: var(--pastel-rojo); padding: 20px;">Error de enlace cuántico. Inténtalo de nuevo.</li>';
+            }
+        }
     </script>
 
 </body>
