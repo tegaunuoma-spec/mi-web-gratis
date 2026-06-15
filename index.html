@@ -3,52 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Búnker de Audio - Lógica Base</title>
+    <title>Consola de Audio - Babata Core</title>
+    <style>
+        :root {
+            --bg-principal: #161920;      /* Fondo profundo del búnker */
+            --bg-tarjeta: #1f242e;        /* Panel central */
+            --texto: #e4e7ed;             /* Blanco ceniza */
+            --texto-secundario: #8a95a5;  /* Gris de telemetría */
+            --pastel-azul: #6c8eae;       /* Nodo Alfa */
+            --pastel-rojo: #b86b6b;       /* Nodo Beta */
+            --borde: #2d3545;
+        }
+
+        body {
+            background-color: var(--bg-principal);
+            color: var(--texto);
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .bunker-panel {
+            text-align: center;
+            border: 1px solid var(--borde);
+            padding: 40px 30px;
+            border-radius: 20px;
+            background: var(--bg-tarjeta);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+            max-width: 380px;
+            width: 85%;
+        }
+
+        h1 {
+            font-size: 1.3rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+            color: var(--texto);
+        }
+
+        .status-monitor {
+            font-size: 0.85rem;
+            color: var(--texto-secundario);
+            margin-bottom: 35px;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.05);
+            word-wrap: break-word;
+        }
+
+        #track-titulo {
+            color: var(--pastel-azul);
+            font-weight: bold;
+        }
+
+        /* Contenedor de Nodos Orbitales */
+        .node-container {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            margin-bottom: 35px;
+        }
+
+        /* Estilización de los Botones Circulares */
+        .node-btn {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            outline: none;
+        }
+
+        /* Comportamiento del Nodo Azul (Alfa) */
+        .node-btn.azul {
+            background-color: rgba(108, 142, 174, 0.05);
+            color: var(--pastel-azul);
+            border: 2px solid var(--pastel-azul);
+            box-shadow: 0 0 15px rgba(108, 142, 174, 0.2);
+        }
+        .node-btn.azul:hover {
+            transform: scale(1.08);
+            background-color: rgba(108, 142, 174, 0.15);
+            box-shadow: 0 0 25px rgba(108, 142, 174, 0.45);
+        }
+
+        /* Comportamiento del Nodo Rojo (Beta) */
+        .node-btn.rojo {
+            background-color: rgba(184, 107, 107, 0.05);
+            color: var(--pastel-rojo);
+            border: 2px solid var(--pastel-rojo);
+            box-shadow: 0 0 15px rgba(184, 107, 107, 0.2);
+        }
+        .node-btn.rojo:hover {
+            transform: scale(1.08);
+            background-color: rgba(184, 107, 107, 0.15);
+            box-shadow: 0 0 25px rgba(184, 107, 107, 0.45);
+        }
+
+        /* Personalización del reproductor de audio nativo para que encaje en el diseño */
+        audio {
+            width: 100%;
+            outline: none;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+        audio:hover {
+            opacity: 1;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Consola de Audio de Babata (Modo Esqueleto)</h1>
-    
-    <div>
-        <h3>Reproduciendo ahora: <span id="track-titulo">Ninguna pista seleccionada</span></h3>
+    <div class="bunker-panel">
+        <h1>Consola de Audio</h1>
+        
+        <div class="status-monitor">
+            <span>📡 ON AIR: </span>
+            <span id="track-titulo">Ninguna pista armada</span>
+        </div>
+        
+        <div class="node-container">
+            <button class="node-btn azul" data-url="musica/musica_bunker.mp3" data-name="Frecuencia Alfa">
+                <span>ALFA</span>
+            </button>
+            
+            <button class="node-btn rojo" data-url="musica/pista2.mp3" data-name="Frecuencia Beta">
+                <span>BETA</span>
+            </button>
+        </div>
+
         <audio id="reproductor" controls>
             <source id="audio-origen" src="" type="audio/mpeg">
-            Tu navegador no soporta el elemento de audio.
         </audio>
     </div>
 
-    <hr>
-
-    <div>
-        <h3>Lista de Pistas Disponibles</h3><button class="track-btn" data-url="musica/musica_bunker.mp3" data-name="Mi Pista Inicial (Búnker)">
-            Play: Tu Canción 1
-        </button>        <button class="track-btn" data-url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" data-name="Frecuencia Alfa - Track 1">
-            Play: Tu Canción 1
-        </button>
-        <br><br>
-        <button class="track-btn" data-url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" data-name="Frecuencia Beta - Track 2">
-            Play: Tu Canción 2
-        </button>
-    </div>
-
     <script>
-        // Capturamos los elementos del DOM
         const reproductor = document.getElementById('reproductor');
         const audioOrigen = document.getElementById('audio-origen');
         const trackTitulo = document.getElementById('track-titulo');
-        const botones = document.querySelectorAll('.track-btn');
+        const botones = document.querySelectorAll('.node-btn');
 
-        // Asignamos la lógica a cada botón
         botones.forEach(boton => {
             boton.addEventListener('click', function() {
                 const urlCancion = this.getAttribute('data-url');
                 const nombreCancion = this.getAttribute('data-name');
 
-                // Cambiamos la pista en el reproductor
+                // Intercambio de matriz de audio
                 audioOrigen.src = urlCancion;
                 trackTitulo.textContent = nombreCancion;
 
-                // Forzamos la carga del nuevo archivo y lo reproducimos
+                // Modificación dinámica del color de la telemetría según el nodo
+                if(this.classList.contains('azul')) {
+                    trackTitulo.style.color = "var(--pastel-azul)";
+                } else {
+                    trackTitulo.style.color = "var(--pastel-rojo)";
+                }
+
                 reproductor.load();
                 reproductor.play();
             });
