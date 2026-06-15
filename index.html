@@ -3,84 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Búnker Digital - Espectro Muted</title>
-    <style>
-        :root {
-            --bg-principal: #161920;      /* Fondo profundo */
-            --bg-tarjeta: #1f242e;        /* Contenedor */
-            --texto: #e4e7ed;             /* Blanco ceniza */
-            --pastel-azul: #6c8eae;       /* Azul Muted */
-            --pastel-rojo: #b86b6b;       /* Rojo Muted */
-            --pastel-verde: #76a085;      /* Verde Muted */
-            --borde: #2d3545;
-        }
-
-        body {
-            background-color: var(--bg-principal);
-            color: var(--texto);
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .container {
-            text-align: center;
-            border: 1px solid var(--borde);
-            padding: 40px;
-            border-radius: 16px;
-            background: var(--bg-tarjeta);
-            box-shadow: 0 12px 32px rgba(0,0,0,0.4);
-            max-width: 420px;
-            width: 90%;
-        }
-
-        h1 {
-            color: var(--pastel-azul);
-            margin-bottom: 15px;
-            font-size: 1.8rem;
-            font-weight: 600;
-        }
-
-        p {
-            color: #a0aec0;
-            font-size: 1rem;
-            line-height: 1.6;
-            margin-bottom: 25px;
-        }
-
-        .badge-container {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-        }
-
-        .badge {
-            padding: 8px 16px;
-            border-radius: 8px;
-            font-size: 0.85em;
-            font-weight: bold;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-        }
-
-        /* Aplicando el tinte sutil usando opacidad en el fondo */
-        .badge.azul { background-color: rgba(108, 142, 174, 0.12); color: var(--pastel-azul); border: 1px solid var(--pastel-azul); }
-        .badge.rojo { background-color: rgba(184, 107, 107, 0.12); color: var(--pastel-rojo); border: 1px solid var(--pastel-rojo); }
-        .badge.verde { background-color: rgba(118, 160, 133, 0.12); color: var(--pastel-verde); border: 1px solid var(--pastel-verde); }
-    </style>
+    <title>Búnker de Audio - Lógica Base</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Espectro de Operaciones</h1>
-        <p>Calibración estética completada. Los indicadores pastel oscuros se han desplegado de forma segura en la interfaz pública.</p>
-        <div class="badge-container">
-            <span class="badge azul">Navegación</span>
-            <span class="badge rojo">Alerta</span>
-            <span class="badge verde">Seguro</span>
-        </div>
+
+    <h1>Consola de Audio de Babata (Modo Esqueleto)</h1>
+    
+    <div>
+        <h3>Reproduciendo ahora: <span id="track-titulo">Ninguna pista seleccionada</span></h3>
+        <audio id="reproductor" controls>
+            <source id="audio-origen" src="" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
     </div>
+
+    <hr>
+
+    <div>
+        <h3>Lista de Pistas Disponibles</h3>
+        <button class="track-btn" data-url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" data-name="Frecuencia Alfa - Track 1">
+            Play: Track 1 (Demo Online)
+        </button>
+        <br><br>
+        <button class="track-btn" data-url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" data-name="Frecuencia Beta - Track 2">
+            Play: Track 2 (Demo Online)
+        </button>
+    </div>
+
+    <script>
+        // Capturamos los elementos del DOM
+        const reproductor = document.getElementById('reproductor');
+        const audioOrigen = document.getElementById('audio-origen');
+        const trackTitulo = document.getElementById('track-titulo');
+        const botones = document.querySelectorAll('.track-btn');
+
+        // Asignamos la lógica a cada botón
+        botones.forEach(boton => {
+            boton.addEventListener('click', function() {
+                const urlCancion = this.getAttribute('data-url');
+                const nombreCancion = this.getAttribute('data-name');
+
+                // Cambiamos la pista en el reproductor
+                audioOrigen.src = urlCancion;
+                trackTitulo.textContent = nombreCancion;
+
+                // Forzamos la carga del nuevo archivo y lo reproducimos
+                reproductor.load();
+                reproductor.play();
+            });
+        });
+    </script>
+
 </body>
 </html>
