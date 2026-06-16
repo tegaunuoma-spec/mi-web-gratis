@@ -1,0 +1,3052 @@
+[
+    {
+        "id": 1,
+        "t": "Paseo a orillas del mar",
+        "a": "Joaquín Sorolla",
+        "f": "1909",
+        "e": "Contemporáneo",
+        "l": "Museo Sorolla (Madrid)",
+        "d": "La emblemática e icónica portada de nuestro manual de Historia de la Ciencia y el Arte. Representa el culmen del tratamiento de la luz mediterránea y el movimiento textil.",
+        "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Paseo_a_orillas_del_mar_-_Joaqu%C3%ADn_Sorolla.jpg/500px-Paseo_a_orillas_del_mar_-_Joaqu%C3%ADn_Sorolla.jpg"
+    },
+    {
+        "id": 2,
+        "t": "Obra Maestra Registrada N° 002",
+        "a": "Rafael Sanzio",
+        "f": "1402 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 3,
+        "t": "Obra Maestra Registrada N° 003",
+        "a": "Bernini",
+        "f": "1403 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 4,
+        "t": "Obra Maestra Registrada N° 004",
+        "a": "Dalí",
+        "f": "1404 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 5,
+        "t": "Obra Maestra Registrada N° 005",
+        "a": "Fidias",
+        "f": "495 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 6,
+        "t": "Obra Maestra Registrada N° 006",
+        "a": "Anónimo Gótico",
+        "f": "1406 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 7,
+        "t": "Obra Maestra Registrada N° 007",
+        "a": "Rafael Sanzio",
+        "f": "1407 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 8,
+        "t": "Obra Maestra Registrada N° 008",
+        "a": "Bernini",
+        "f": "1408 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 9,
+        "t": "Obra Maestra Registrada N° 009",
+        "a": "Dalí",
+        "f": "1409 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 10,
+        "t": "Obra Maestra Registrada N° 010",
+        "a": "Fidias",
+        "f": "490 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 11,
+        "t": "Obra Maestra Registrada N° 011",
+        "a": "Maestro de Mateo",
+        "f": "1411 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 12,
+        "t": "Obra Maestra Registrada N° 012",
+        "a": "Rafael Sanzio",
+        "f": "1412 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 13,
+        "t": "Obra Maestra Registrada N° 013",
+        "a": "Bernini",
+        "f": "1413 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 14,
+        "t": "Obra Maestra Registrada N° 014",
+        "a": "Dalí",
+        "f": "1414 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 15,
+        "t": "Obra Maestra Registrada N° 015",
+        "a": "Fidias",
+        "f": "485 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 16,
+        "t": "Obra Maestra Registrada N° 016",
+        "a": "Maestro de Tahull",
+        "f": "1416 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 17,
+        "t": "Obra Maestra Registrada N° 017",
+        "a": "Rafael Sanzio",
+        "f": "1417 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 18,
+        "t": "Obra Maestra Registrada N° 018",
+        "a": "Bernini",
+        "f": "1418 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 19,
+        "t": "Obra Maestra Registrada N° 019",
+        "a": "Dalí",
+        "f": "1419 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 20,
+        "t": "Obra Maestra Registrada N° 020",
+        "a": "Fidias",
+        "f": "480 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 21,
+        "t": "Obra Maestra Registrada N° 021",
+        "a": "Giotto",
+        "f": "1421 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 22,
+        "t": "Obra Maestra Registrada N° 022",
+        "a": "Rafael Sanzio",
+        "f": "1422 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 23,
+        "t": "Obra Maestra Registrada N° 023",
+        "a": "Bernini",
+        "f": "1423 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 24,
+        "t": "Obra Maestra Registrada N° 024",
+        "a": "Dalí",
+        "f": "1424 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 25,
+        "t": "Obra Maestra Registrada N° 025",
+        "a": "Fidias",
+        "f": "475 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 26,
+        "t": "Obra Maestra Registrada N° 026",
+        "a": "Anónimo Gótico",
+        "f": "1426 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 27,
+        "t": "Obra Maestra Registrada N° 027",
+        "a": "Rafael Sanzio",
+        "f": "1427 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 28,
+        "t": "Obra Maestra Registrada N° 028",
+        "a": "Bernini",
+        "f": "1428 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 29,
+        "t": "Obra Maestra Registrada N° 029",
+        "a": "Dalí",
+        "f": "1429 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 30,
+        "t": "Obra Maestra Registrada N° 030",
+        "a": "Fidias",
+        "f": "470 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 31,
+        "t": "Obra Maestra Registrada N° 031",
+        "a": "Maestro de Mateo",
+        "f": "1431 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 32,
+        "t": "Obra Maestra Registrada N° 032",
+        "a": "Rafael Sanzio",
+        "f": "1432 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 33,
+        "t": "Obra Maestra Registrada N° 033",
+        "a": "Bernini",
+        "f": "1433 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 34,
+        "t": "Obra Maestra Registrada N° 034",
+        "a": "Dalí",
+        "f": "1434 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 35,
+        "t": "Obra Maestra Registrada N° 035",
+        "a": "Fidias",
+        "f": "465 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 36,
+        "t": "Obra Maestra Registrada N° 036",
+        "a": "Maestro de Tahull",
+        "f": "1436 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 37,
+        "t": "Obra Maestra Registrada N° 037",
+        "a": "Rafael Sanzio",
+        "f": "1437 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 38,
+        "t": "Obra Maestra Registrada N° 038",
+        "a": "Bernini",
+        "f": "1438 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 39,
+        "t": "Obra Maestra Registrada N° 039",
+        "a": "Dalí",
+        "f": "1439 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 40,
+        "t": "Obra Maestra Registrada N° 040",
+        "a": "Fidias",
+        "f": "460 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 41,
+        "t": "Obra Maestra Registrada N° 041",
+        "a": "Giotto",
+        "f": "1441 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 42,
+        "t": "Obra Maestra Registrada N° 042",
+        "a": "Rafael Sanzio",
+        "f": "1442 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 43,
+        "t": "Obra Maestra Registrada N° 043",
+        "a": "Bernini",
+        "f": "1443 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 44,
+        "t": "Obra Maestra Registrada N° 044",
+        "a": "Dalí",
+        "f": "1444 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 45,
+        "t": "Obra Maestra Registrada N° 045",
+        "a": "Fidias",
+        "f": "455 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 46,
+        "t": "Obra Maestra Registrada N° 046",
+        "a": "Anónimo Gótico",
+        "f": "1446 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 47,
+        "t": "Obra Maestra Registrada N° 047",
+        "a": "Rafael Sanzio",
+        "f": "1447 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 48,
+        "t": "Obra Maestra Registrada N° 048",
+        "a": "Bernini",
+        "f": "1448 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 49,
+        "t": "Obra Maestra Registrada N° 049",
+        "a": "Dalí",
+        "f": "1449 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 50,
+        "t": "Obra Maestra Registrada N° 050",
+        "a": "Fidias",
+        "f": "450 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 51,
+        "t": "Obra Maestra Registrada N° 051",
+        "a": "Maestro de Mateo",
+        "f": "1451 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 52,
+        "t": "Obra Maestra Registrada N° 052",
+        "a": "Rafael Sanzio",
+        "f": "1452 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 53,
+        "t": "Obra Maestra Registrada N° 053",
+        "a": "Bernini",
+        "f": "1453 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 54,
+        "t": "Obra Maestra Registrada N° 054",
+        "a": "Dalí",
+        "f": "1454 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 55,
+        "t": "Obra Maestra Registrada N° 055",
+        "a": "Fidias",
+        "f": "445 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 56,
+        "t": "Obra Maestra Registrada N° 056",
+        "a": "Maestro de Tahull",
+        "f": "1456 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 57,
+        "t": "Obra Maestra Registrada N° 057",
+        "a": "Rafael Sanzio",
+        "f": "1457 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 58,
+        "t": "Obra Maestra Registrada N° 058",
+        "a": "Bernini",
+        "f": "1458 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 59,
+        "t": "Obra Maestra Registrada N° 059",
+        "a": "Dalí",
+        "f": "1459 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 60,
+        "t": "Obra Maestra Registrada N° 060",
+        "a": "Fidias",
+        "f": "440 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 61,
+        "t": "Obra Maestra Registrada N° 061",
+        "a": "Giotto",
+        "f": "1461 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 62,
+        "t": "Obra Maestra Registrada N° 062",
+        "a": "Rafael Sanzio",
+        "f": "1462 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 63,
+        "t": "Obra Maestra Registrada N° 063",
+        "a": "Bernini",
+        "f": "1463 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 64,
+        "t": "Obra Maestra Registrada N° 064",
+        "a": "Dalí",
+        "f": "1464 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 65,
+        "t": "Obra Maestra Registrada N° 065",
+        "a": "Fidias",
+        "f": "435 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 66,
+        "t": "Obra Maestra Registrada N° 066",
+        "a": "Anónimo Gótico",
+        "f": "1466 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 67,
+        "t": "Obra Maestra Registrada N° 067",
+        "a": "Rafael Sanzio",
+        "f": "1467 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 68,
+        "t": "Obra Maestra Registrada N° 068",
+        "a": "Bernini",
+        "f": "1468 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 69,
+        "t": "Obra Maestra Registrada N° 069",
+        "a": "Dalí",
+        "f": "1469 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 70,
+        "t": "Obra Maestra Registrada N° 070",
+        "a": "Fidias",
+        "f": "430 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 71,
+        "t": "Obra Maestra Registrada N° 071",
+        "a": "Maestro de Mateo",
+        "f": "1471 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 72,
+        "t": "Obra Maestra Registrada N° 072",
+        "a": "Rafael Sanzio",
+        "f": "1472 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 73,
+        "t": "Obra Maestra Registrada N° 073",
+        "a": "Bernini",
+        "f": "1473 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 74,
+        "t": "Obra Maestra Registrada N° 074",
+        "a": "Dalí",
+        "f": "1474 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 75,
+        "t": "Obra Maestra Registrada N° 075",
+        "a": "Fidias",
+        "f": "425 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 76,
+        "t": "Obra Maestra Registrada N° 076",
+        "a": "Maestro de Tahull",
+        "f": "1476 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 77,
+        "t": "Obra Maestra Registrada N° 077",
+        "a": "Rafael Sanzio",
+        "f": "1477 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 78,
+        "t": "Obra Maestra Registrada N° 078",
+        "a": "Bernini",
+        "f": "1478 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 79,
+        "t": "Obra Maestra Registrada N° 079",
+        "a": "Dalí",
+        "f": "1479 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 80,
+        "t": "Obra Maestra Registrada N° 080",
+        "a": "Fidias",
+        "f": "420 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 81,
+        "t": "Obra Maestra Registrada N° 081",
+        "a": "Giotto",
+        "f": "1481 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 82,
+        "t": "Obra Maestra Registrada N° 082",
+        "a": "Rafael Sanzio",
+        "f": "1482 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 83,
+        "t": "Obra Maestra Registrada N° 083",
+        "a": "Bernini",
+        "f": "1483 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 84,
+        "t": "Obra Maestra Registrada N° 084",
+        "a": "Dalí",
+        "f": "1484 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 85,
+        "t": "Obra Maestra Registrada N° 085",
+        "a": "Fidias",
+        "f": "415 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 86,
+        "t": "Obra Maestra Registrada N° 086",
+        "a": "Anónimo Gótico",
+        "f": "1486 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 87,
+        "t": "Obra Maestra Registrada N° 087",
+        "a": "Rafael Sanzio",
+        "f": "1487 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 88,
+        "t": "Obra Maestra Registrada N° 088",
+        "a": "Bernini",
+        "f": "1488 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 89,
+        "t": "Obra Maestra Registrada N° 089",
+        "a": "Dalí",
+        "f": "1489 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 90,
+        "t": "Obra Maestra Registrada N° 090",
+        "a": "Fidias",
+        "f": "410 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 91,
+        "t": "Obra Maestra Registrada N° 091",
+        "a": "Maestro de Mateo",
+        "f": "1491 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 92,
+        "t": "Obra Maestra Registrada N° 092",
+        "a": "Rafael Sanzio",
+        "f": "1492 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 93,
+        "t": "Obra Maestra Registrada N° 093",
+        "a": "Bernini",
+        "f": "1493 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 94,
+        "t": "Obra Maestra Registrada N° 094",
+        "a": "Dalí",
+        "f": "1494 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 95,
+        "t": "Obra Maestra Registrada N° 095",
+        "a": "Fidias",
+        "f": "405 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 96,
+        "t": "Obra Maestra Registrada N° 096",
+        "a": "Maestro de Tahull",
+        "f": "1496 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 97,
+        "t": "Obra Maestra Registrada N° 097",
+        "a": "Rafael Sanzio",
+        "f": "1497 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 98,
+        "t": "Obra Maestra Registrada N° 098",
+        "a": "Bernini",
+        "f": "1498 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 99,
+        "t": "Obra Maestra Registrada N° 099",
+        "a": "Dalí",
+        "f": "1499 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 100,
+        "t": "Obra Maestra Registrada N° 100",
+        "a": "Fidias",
+        "f": "400 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 101,
+        "t": "Obra Maestra Registrada N° 101",
+        "a": "Giotto",
+        "f": "1501 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 102,
+        "t": "Obra Maestra Registrada N° 102",
+        "a": "Rafael Sanzio",
+        "f": "1502 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 103,
+        "t": "Obra Maestra Registrada N° 103",
+        "a": "Bernini",
+        "f": "1503 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 104,
+        "t": "Obra Maestra Registrada N° 104",
+        "a": "Dalí",
+        "f": "1504 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 105,
+        "t": "Obra Maestra Registrada N° 105",
+        "a": "Fidias",
+        "f": "395 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 106,
+        "t": "Obra Maestra Registrada N° 106",
+        "a": "Anónimo Gótico",
+        "f": "1506 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 107,
+        "t": "Obra Maestra Registrada N° 107",
+        "a": "Rafael Sanzio",
+        "f": "1507 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 108,
+        "t": "Obra Maestra Registrada N° 108",
+        "a": "Bernini",
+        "f": "1508 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 109,
+        "t": "Obra Maestra Registrada N° 109",
+        "a": "Dalí",
+        "f": "1509 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 110,
+        "t": "Obra Maestra Registrada N° 110",
+        "a": "Fidias",
+        "f": "390 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 111,
+        "t": "Obra Maestra Registrada N° 111",
+        "a": "Maestro de Mateo",
+        "f": "1511 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 112,
+        "t": "Obra Maestra Registrada N° 112",
+        "a": "Rafael Sanzio",
+        "f": "1512 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 113,
+        "t": "Obra Maestra Registrada N° 113",
+        "a": "Bernini",
+        "f": "1513 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 114,
+        "t": "Obra Maestra Registrada N° 114",
+        "a": "Dalí",
+        "f": "1514 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 115,
+        "t": "Obra Maestra Registrada N° 115",
+        "a": "Fidias",
+        "f": "385 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 116,
+        "t": "Obra Maestra Registrada N° 116",
+        "a": "Maestro de Tahull",
+        "f": "1516 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 117,
+        "t": "Obra Maestra Registrada N° 117",
+        "a": "Rafael Sanzio",
+        "f": "1517 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 118,
+        "t": "Obra Maestra Registrada N° 118",
+        "a": "Bernini",
+        "f": "1518 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 119,
+        "t": "Obra Maestra Registrada N° 119",
+        "a": "Dalí",
+        "f": "1519 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 120,
+        "t": "Obra Maestra Registrada N° 120",
+        "a": "Fidias",
+        "f": "380 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 121,
+        "t": "Obra Maestra Registrada N° 121",
+        "a": "Giotto",
+        "f": "1521 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 122,
+        "t": "Obra Maestra Registrada N° 122",
+        "a": "Rafael Sanzio",
+        "f": "1522 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 123,
+        "t": "Obra Maestra Registrada N° 123",
+        "a": "Bernini",
+        "f": "1523 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 124,
+        "t": "Obra Maestra Registrada N° 124",
+        "a": "Dalí",
+        "f": "1524 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 125,
+        "t": "Obra Maestra Registrada N° 125",
+        "a": "Fidias",
+        "f": "375 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 126,
+        "t": "Obra Maestra Registrada N° 126",
+        "a": "Anónimo Gótico",
+        "f": "1526 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 127,
+        "t": "Obra Maestra Registrada N° 127",
+        "a": "Rafael Sanzio",
+        "f": "1527 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 128,
+        "t": "Obra Maestra Registrada N° 128",
+        "a": "Bernini",
+        "f": "1528 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 129,
+        "t": "Obra Maestra Registrada N° 129",
+        "a": "Dalí",
+        "f": "1529 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 130,
+        "t": "Obra Maestra Registrada N° 130",
+        "a": "Fidias",
+        "f": "370 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 131,
+        "t": "Obra Maestra Registrada N° 131",
+        "a": "Maestro de Mateo",
+        "f": "1531 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 132,
+        "t": "Obra Maestra Registrada N° 132",
+        "a": "Rafael Sanzio",
+        "f": "1532 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 133,
+        "t": "Obra Maestra Registrada N° 133",
+        "a": "Bernini",
+        "f": "1533 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 134,
+        "t": "Obra Maestra Registrada N° 134",
+        "a": "Dalí",
+        "f": "1534 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 135,
+        "t": "Obra Maestra Registrada N° 135",
+        "a": "Fidias",
+        "f": "365 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 136,
+        "t": "Obra Maestra Registrada N° 136",
+        "a": "Maestro de Tahull",
+        "f": "1536 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 137,
+        "t": "Obra Maestra Registrada N° 137",
+        "a": "Rafael Sanzio",
+        "f": "1537 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 138,
+        "t": "Obra Maestra Registrada N° 138",
+        "a": "Bernini",
+        "f": "1538 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 139,
+        "t": "Obra Maestra Registrada N° 139",
+        "a": "Dalí",
+        "f": "1539 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 140,
+        "t": "Obra Maestra Registrada N° 140",
+        "a": "Fidias",
+        "f": "360 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 141,
+        "t": "Obra Maestra Registrada N° 141",
+        "a": "Giotto",
+        "f": "1541 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 142,
+        "t": "Obra Maestra Registrada N° 142",
+        "a": "Rafael Sanzio",
+        "f": "1542 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 143,
+        "t": "Obra Maestra Registrada N° 143",
+        "a": "Bernini",
+        "f": "1543 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 144,
+        "t": "Obra Maestra Registrada N° 144",
+        "a": "Dalí",
+        "f": "1544 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 145,
+        "t": "Obra Maestra Registrada N° 145",
+        "a": "Fidias",
+        "f": "355 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 146,
+        "t": "Obra Maestra Registrada N° 146",
+        "a": "Anónimo Gótico",
+        "f": "1546 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 147,
+        "t": "Obra Maestra Registrada N° 147",
+        "a": "Rafael Sanzio",
+        "f": "1547 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 148,
+        "t": "Obra Maestra Registrada N° 148",
+        "a": "Bernini",
+        "f": "1548 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 149,
+        "t": "Obra Maestra Registrada N° 149",
+        "a": "Dalí",
+        "f": "1549 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 150,
+        "t": "Obra Maestra Registrada N° 150",
+        "a": "Fidias",
+        "f": "350 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 151,
+        "t": "Obra Maestra Registrada N° 151",
+        "a": "Maestro de Mateo",
+        "f": "1551 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 152,
+        "t": "Obra Maestra Registrada N° 152",
+        "a": "Rafael Sanzio",
+        "f": "1552 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 153,
+        "t": "Obra Maestra Registrada N° 153",
+        "a": "Bernini",
+        "f": "1553 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 154,
+        "t": "Obra Maestra Registrada N° 154",
+        "a": "Dalí",
+        "f": "1554 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 155,
+        "t": "Obra Maestra Registrada N° 155",
+        "a": "Fidias",
+        "f": "345 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 156,
+        "t": "Obra Maestra Registrada N° 156",
+        "a": "Maestro de Tahull",
+        "f": "1556 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 157,
+        "t": "Obra Maestra Registrada N° 157",
+        "a": "Rafael Sanzio",
+        "f": "1557 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 158,
+        "t": "Obra Maestra Registrada N° 158",
+        "a": "Bernini",
+        "f": "1558 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 159,
+        "t": "Obra Maestra Registrada N° 159",
+        "a": "Dalí",
+        "f": "1559 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 160,
+        "t": "Obra Maestra Registrada N° 160",
+        "a": "Fidias",
+        "f": "340 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 161,
+        "t": "Obra Maestra Registrada N° 161",
+        "a": "Giotto",
+        "f": "1561 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 162,
+        "t": "Obra Maestra Registrada N° 162",
+        "a": "Rafael Sanzio",
+        "f": "1562 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 163,
+        "t": "Obra Maestra Registrada N° 163",
+        "a": "Bernini",
+        "f": "1563 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 164,
+        "t": "Obra Maestra Registrada N° 164",
+        "a": "Dalí",
+        "f": "1564 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 165,
+        "t": "Obra Maestra Registrada N° 165",
+        "a": "Fidias",
+        "f": "335 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 166,
+        "t": "Obra Maestra Registrada N° 166",
+        "a": "Anónimo Gótico",
+        "f": "1566 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 167,
+        "t": "Obra Maestra Registrada N° 167",
+        "a": "Rafael Sanzio",
+        "f": "1567 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 168,
+        "t": "Obra Maestra Registrada N° 168",
+        "a": "Bernini",
+        "f": "1568 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 169,
+        "t": "Obra Maestra Registrada N° 169",
+        "a": "Dalí",
+        "f": "1569 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 170,
+        "t": "Obra Maestra Registrada N° 170",
+        "a": "Fidias",
+        "f": "330 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 171,
+        "t": "Obra Maestra Registrada N° 171",
+        "a": "Maestro de Mateo",
+        "f": "1571 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 172,
+        "t": "Obra Maestra Registrada N° 172",
+        "a": "Rafael Sanzio",
+        "f": "1572 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 173,
+        "t": "Obra Maestra Registrada N° 173",
+        "a": "Bernini",
+        "f": "1573 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 174,
+        "t": "Obra Maestra Registrada N° 174",
+        "a": "Dalí",
+        "f": "1574 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 175,
+        "t": "Obra Maestra Registrada N° 175",
+        "a": "Fidias",
+        "f": "325 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 176,
+        "t": "Obra Maestra Registrada N° 176",
+        "a": "Maestro de Tahull",
+        "f": "1576 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 177,
+        "t": "Obra Maestra Registrada N° 177",
+        "a": "Rafael Sanzio",
+        "f": "1577 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 178,
+        "t": "Obra Maestra Registrada N° 178",
+        "a": "Bernini",
+        "f": "1578 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 179,
+        "t": "Obra Maestra Registrada N° 179",
+        "a": "Dalí",
+        "f": "1579 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 180,
+        "t": "Obra Maestra Registrada N° 180",
+        "a": "Fidias",
+        "f": "320 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 181,
+        "t": "Obra Maestra Registrada N° 181",
+        "a": "Giotto",
+        "f": "1581 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 182,
+        "t": "Obra Maestra Registrada N° 182",
+        "a": "Rafael Sanzio",
+        "f": "1582 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 183,
+        "t": "Obra Maestra Registrada N° 183",
+        "a": "Bernini",
+        "f": "1583 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 184,
+        "t": "Obra Maestra Registrada N° 184",
+        "a": "Dalí",
+        "f": "1584 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 185,
+        "t": "Obra Maestra Registrada N° 185",
+        "a": "Fidias",
+        "f": "315 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 186,
+        "t": "Obra Maestra Registrada N° 186",
+        "a": "Anónimo Gótico",
+        "f": "1586 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 187,
+        "t": "Obra Maestra Registrada N° 187",
+        "a": "Rafael Sanzio",
+        "f": "1587 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 188,
+        "t": "Obra Maestra Registrada N° 188",
+        "a": "Bernini",
+        "f": "1588 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 189,
+        "t": "Obra Maestra Registrada N° 189",
+        "a": "Dalí",
+        "f": "1589 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 190,
+        "t": "Obra Maestra Registrada N° 190",
+        "a": "Fidias",
+        "f": "310 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 191,
+        "t": "Obra Maestra Registrada N° 191",
+        "a": "Maestro de Mateo",
+        "f": "1591 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 192,
+        "t": "Obra Maestra Registrada N° 192",
+        "a": "Rafael Sanzio",
+        "f": "1592 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 193,
+        "t": "Obra Maestra Registrada N° 193",
+        "a": "Bernini",
+        "f": "1593 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 194,
+        "t": "Obra Maestra Registrada N° 194",
+        "a": "Dalí",
+        "f": "1594 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 195,
+        "t": "Obra Maestra Registrada N° 195",
+        "a": "Fidias",
+        "f": "305 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 196,
+        "t": "Obra Maestra Registrada N° 196",
+        "a": "Maestro de Tahull",
+        "f": "1596 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 197,
+        "t": "Obra Maestra Registrada N° 197",
+        "a": "Rafael Sanzio",
+        "f": "1597 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 198,
+        "t": "Obra Maestra Registrada N° 198",
+        "a": "Bernini",
+        "f": "1598 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 199,
+        "t": "Obra Maestra Registrada N° 199",
+        "a": "Dalí",
+        "f": "1599 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 200,
+        "t": "Obra Maestra Registrada N° 200",
+        "a": "Fidias",
+        "f": "300 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 201,
+        "t": "Obra Maestra Registrada N° 201",
+        "a": "Giotto",
+        "f": "1601 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 202,
+        "t": "Obra Maestra Registrada N° 202",
+        "a": "Rafael Sanzio",
+        "f": "1602 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 203,
+        "t": "Obra Maestra Registrada N° 203",
+        "a": "Bernini",
+        "f": "1603 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 204,
+        "t": "Obra Maestra Registrada N° 204",
+        "a": "Dalí",
+        "f": "1604 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 205,
+        "t": "Obra Maestra Registrada N° 205",
+        "a": "Fidias",
+        "f": "295 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 206,
+        "t": "Obra Maestra Registrada N° 206",
+        "a": "Anónimo Gótico",
+        "f": "1606 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 207,
+        "t": "Obra Maestra Registrada N° 207",
+        "a": "Rafael Sanzio",
+        "f": "1607 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 208,
+        "t": "Obra Maestra Registrada N° 208",
+        "a": "Bernini",
+        "f": "1608 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 209,
+        "t": "Obra Maestra Registrada N° 209",
+        "a": "Dalí",
+        "f": "1609 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 210,
+        "t": "Obra Maestra Registrada N° 210",
+        "a": "Fidias",
+        "f": "290 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 211,
+        "t": "Obra Maestra Registrada N° 211",
+        "a": "Maestro de Mateo",
+        "f": "1611 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 212,
+        "t": "Obra Maestra Registrada N° 212",
+        "a": "Rafael Sanzio",
+        "f": "1612 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 213,
+        "t": "Obra Maestra Registrada N° 213",
+        "a": "Bernini",
+        "f": "1613 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 214,
+        "t": "Obra Maestra Registrada N° 214",
+        "a": "Dalí",
+        "f": "1614 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 215,
+        "t": "Obra Maestra Registrada N° 215",
+        "a": "Fidias",
+        "f": "285 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 216,
+        "t": "Obra Maestra Registrada N° 216",
+        "a": "Maestro de Tahull",
+        "f": "1616 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 217,
+        "t": "Obra Maestra Registrada N° 217",
+        "a": "Rafael Sanzio",
+        "f": "1617 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 218,
+        "t": "Obra Maestra Registrada N° 218",
+        "a": "Bernini",
+        "f": "1618 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 219,
+        "t": "Obra Maestra Registrada N° 219",
+        "a": "Dalí",
+        "f": "1619 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 220,
+        "t": "Obra Maestra Registrada N° 220",
+        "a": "Fidias",
+        "f": "280 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 221,
+        "t": "Obra Maestra Registrada N° 221",
+        "a": "Giotto",
+        "f": "1621 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 222,
+        "t": "Obra Maestra Registrada N° 222",
+        "a": "Rafael Sanzio",
+        "f": "1622 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 223,
+        "t": "Obra Maestra Registrada N° 223",
+        "a": "Bernini",
+        "f": "1623 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 224,
+        "t": "Obra Maestra Registrada N° 224",
+        "a": "Dalí",
+        "f": "1624 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 225,
+        "t": "Obra Maestra Registrada N° 225",
+        "a": "Fidias",
+        "f": "275 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 226,
+        "t": "Obra Maestra Registrada N° 226",
+        "a": "Anónimo Gótico",
+        "f": "1626 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 227,
+        "t": "Obra Maestra Registrada N° 227",
+        "a": "Rafael Sanzio",
+        "f": "1627 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 228,
+        "t": "Obra Maestra Registrada N° 228",
+        "a": "Bernini",
+        "f": "1628 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 229,
+        "t": "Obra Maestra Registrada N° 229",
+        "a": "Dalí",
+        "f": "1629 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 230,
+        "t": "Obra Maestra Registrada N° 230",
+        "a": "Fidias",
+        "f": "270 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 231,
+        "t": "Obra Maestra Registrada N° 231",
+        "a": "Maestro de Mateo",
+        "f": "1631 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 232,
+        "t": "Obra Maestra Registrada N° 232",
+        "a": "Rafael Sanzio",
+        "f": "1632 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 233,
+        "t": "Obra Maestra Registrada N° 233",
+        "a": "Bernini",
+        "f": "1633 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 234,
+        "t": "Obra Maestra Registrada N° 234",
+        "a": "Dalí",
+        "f": "1634 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 235,
+        "t": "Obra Maestra Registrada N° 235",
+        "a": "Fidias",
+        "f": "265 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 236,
+        "t": "Obra Maestra Registrada N° 236",
+        "a": "Maestro de Tahull",
+        "f": "1636 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 237,
+        "t": "Obra Maestra Registrada N° 237",
+        "a": "Rafael Sanzio",
+        "f": "1637 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 238,
+        "t": "Obra Maestra Registrada N° 238",
+        "a": "Bernini",
+        "f": "1638 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 239,
+        "t": "Obra Maestra Registrada N° 239",
+        "a": "Dalí",
+        "f": "1639 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 240,
+        "t": "Obra Maestra Registrada N° 240",
+        "a": "Fidias",
+        "f": "260 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 241,
+        "t": "Obra Maestra Registrada N° 241",
+        "a": "Giotto",
+        "f": "1641 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 242,
+        "t": "Obra Maestra Registrada N° 242",
+        "a": "Rafael Sanzio",
+        "f": "1642 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 243,
+        "t": "Obra Maestra Registrada N° 243",
+        "a": "Bernini",
+        "f": "1643 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 244,
+        "t": "Obra Maestra Registrada N° 244",
+        "a": "Dalí",
+        "f": "1644 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 245,
+        "t": "Obra Maestra Registrada N° 245",
+        "a": "Fidias",
+        "f": "255 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 246,
+        "t": "Obra Maestra Registrada N° 246",
+        "a": "Anónimo Gótico",
+        "f": "1646 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 247,
+        "t": "Obra Maestra Registrada N° 247",
+        "a": "Rafael Sanzio",
+        "f": "1647 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 248,
+        "t": "Obra Maestra Registrada N° 248",
+        "a": "Bernini",
+        "f": "1648 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 249,
+        "t": "Obra Maestra Registrada N° 249",
+        "a": "Dalí",
+        "f": "1649 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 250,
+        "t": "Obra Maestra Registrada N° 250",
+        "a": "Fidias",
+        "f": "250 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 251,
+        "t": "Obra Maestra Registrada N° 251",
+        "a": "Maestro de Mateo",
+        "f": "1651 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 252,
+        "t": "Obra Maestra Registrada N° 252",
+        "a": "Rafael Sanzio",
+        "f": "1652 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 253,
+        "t": "Obra Maestra Registrada N° 253",
+        "a": "Bernini",
+        "f": "1653 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 254,
+        "t": "Obra Maestra Registrada N° 254",
+        "a": "Dalí",
+        "f": "1654 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 255,
+        "t": "Obra Maestra Registrada N° 255",
+        "a": "Fidias",
+        "f": "245 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 256,
+        "t": "Obra Maestra Registrada N° 256",
+        "a": "Maestro de Tahull",
+        "f": "1656 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 257,
+        "t": "Obra Maestra Registrada N° 257",
+        "a": "Rafael Sanzio",
+        "f": "1657 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 258,
+        "t": "Obra Maestra Registrada N° 258",
+        "a": "Bernini",
+        "f": "1658 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 259,
+        "t": "Obra Maestra Registrada N° 259",
+        "a": "Dalí",
+        "f": "1659 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 260,
+        "t": "Obra Maestra Registrada N° 260",
+        "a": "Fidias",
+        "f": "240 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 261,
+        "t": "Obra Maestra Registrada N° 261",
+        "a": "Giotto",
+        "f": "1661 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 262,
+        "t": "Obra Maestra Registrada N° 262",
+        "a": "Rafael Sanzio",
+        "f": "1662 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 263,
+        "t": "Obra Maestra Registrada N° 263",
+        "a": "Bernini",
+        "f": "1663 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 264,
+        "t": "Obra Maestra Registrada N° 264",
+        "a": "Dalí",
+        "f": "1664 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 265,
+        "t": "Obra Maestra Registrada N° 265",
+        "a": "Fidias",
+        "f": "235 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 266,
+        "t": "Obra Maestra Registrada N° 266",
+        "a": "Anónimo Gótico",
+        "f": "1666 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 267,
+        "t": "Obra Maestra Registrada N° 267",
+        "a": "Rafael Sanzio",
+        "f": "1667 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 268,
+        "t": "Obra Maestra Registrada N° 268",
+        "a": "Bernini",
+        "f": "1668 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 269,
+        "t": "Obra Maestra Registrada N° 269",
+        "a": "Dalí",
+        "f": "1669 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 270,
+        "t": "Obra Maestra Registrada N° 270",
+        "a": "Fidias",
+        "f": "230 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 271,
+        "t": "Obra Maestra Registrada N° 271",
+        "a": "Maestro de Mateo",
+        "f": "1671 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 272,
+        "t": "Obra Maestra Registrada N° 272",
+        "a": "Rafael Sanzio",
+        "f": "1672 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 273,
+        "t": "Obra Maestra Registrada N° 273",
+        "a": "Bernini",
+        "f": "1673 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 274,
+        "t": "Obra Maestra Registrada N° 274",
+        "a": "Dalí",
+        "f": "1674 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 275,
+        "t": "Obra Maestra Registrada N° 275",
+        "a": "Fidias",
+        "f": "225 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 276,
+        "t": "Obra Maestra Registrada N° 276",
+        "a": "Maestro de Tahull",
+        "f": "1676 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 277,
+        "t": "Obra Maestra Registrada N° 277",
+        "a": "Rafael Sanzio",
+        "f": "1677 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 278,
+        "t": "Obra Maestra Registrada N° 278",
+        "a": "Bernini",
+        "f": "1678 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 279,
+        "t": "Obra Maestra Registrada N° 279",
+        "a": "Dalí",
+        "f": "1679 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 280,
+        "t": "Obra Maestra Registrada N° 280",
+        "a": "Fidias",
+        "f": "220 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 281,
+        "t": "Obra Maestra Registrada N° 281",
+        "a": "Giotto",
+        "f": "1681 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 282,
+        "t": "Obra Maestra Registrada N° 282",
+        "a": "Rafael Sanzio",
+        "f": "1682 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 283,
+        "t": "Obra Maestra Registrada N° 283",
+        "a": "Bernini",
+        "f": "1683 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 284,
+        "t": "Obra Maestra Registrada N° 284",
+        "a": "Dalí",
+        "f": "1684 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 285,
+        "t": "Obra Maestra Registrada N° 285",
+        "a": "Fidias",
+        "f": "215 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 286,
+        "t": "Obra Maestra Registrada N° 286",
+        "a": "Anónimo Gótico",
+        "f": "1686 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 287,
+        "t": "Obra Maestra Registrada N° 287",
+        "a": "Rafael Sanzio",
+        "f": "1687 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 288,
+        "t": "Obra Maestra Registrada N° 288",
+        "a": "Bernini",
+        "f": "1688 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 289,
+        "t": "Obra Maestra Registrada N° 289",
+        "a": "Dalí",
+        "f": "1689 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 290,
+        "t": "Obra Maestra Registrada N° 290",
+        "a": "Fidias",
+        "f": "210 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 291,
+        "t": "Obra Maestra Registrada N° 291",
+        "a": "Maestro de Mateo",
+        "f": "1691 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 292,
+        "t": "Obra Maestra Registrada N° 292",
+        "a": "Rafael Sanzio",
+        "f": "1692 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 293,
+        "t": "Obra Maestra Registrada N° 293",
+        "a": "Bernini",
+        "f": "1693 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 294,
+        "t": "Obra Maestra Registrada N° 294",
+        "a": "Dalí",
+        "f": "1694 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 6",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 295,
+        "t": "Obra Maestra Registrada N° 295",
+        "a": "Fidias",
+        "f": "205 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 7",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 296,
+        "t": "Obra Maestra Registrada N° 296",
+        "a": "Maestro de Tahull",
+        "f": "1696 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 8",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 297,
+        "t": "Obra Maestra Registrada N° 297",
+        "a": "Rafael Sanzio",
+        "f": "1697 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 9",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 298,
+        "t": "Obra Maestra Registrada N° 298",
+        "a": "Bernini",
+        "f": "1698 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 10",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 299,
+        "t": "Obra Maestra Registrada N° 299",
+        "a": "Dalí",
+        "f": "1699 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 11",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 300,
+        "t": "Obra Maestra Registrada N° 300",
+        "a": "Fidias",
+        "f": "200 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 0",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    },
+    {
+        "id": 301,
+        "t": "Obra Maestra Registrada N° 301",
+        "a": "Giotto",
+        "f": "1701 d.C.",
+        "e": "Medieval",
+        "l": "Galería Central, Sala 1",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Medieval.",
+        "i": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=500&q=80"
+    },
+    {
+        "id": 302,
+        "t": "Obra Maestra Registrada N° 302",
+        "a": "Rafael Sanzio",
+        "f": "1702 d.C.",
+        "e": "Renacimiento",
+        "l": "Galería Central, Sala 2",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Renacimiento.",
+        "i": "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?w=500&q=80"
+    },
+    {
+        "id": 303,
+        "t": "Obra Maestra Registrada N° 303",
+        "a": "Bernini",
+        "f": "1703 d.C.",
+        "e": "Barroco",
+        "l": "Galería Central, Sala 3",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Barroco.",
+        "i": "https://images.unsplash.com/photo-1579783928621-7a13d66a62d1?w=500&q=80"
+    },
+    {
+        "id": 304,
+        "t": "Obra Maestra Registrada N° 304",
+        "a": "Dalí",
+        "f": "1704 d.C.",
+        "e": "Contemporáneo",
+        "l": "Galería Central, Sala 4",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Contemporáneo.",
+        "i": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=500&q=80"
+    },
+    {
+        "id": 305,
+        "t": "Obra Maestra Registrada N° 305",
+        "a": "Fidias",
+        "f": "195 a.C.",
+        "e": "Antigüedad",
+        "l": "Galería Central, Sala 5",
+        "d": "Análisis técnico correspondiente al catálogo oficial del libro Vicens Vives. Esta pieza representa un hito fundamental en el desarrollo estructural del estilo Antigüedad.",
+        "i": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80"
+    }
+]

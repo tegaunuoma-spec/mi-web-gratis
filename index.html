@@ -3,419 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historia da Arte - Galería Virtual Integral</title>
+    <title>Historia da Arte - Megagaleria 300+</title>
     <style>
         :root {
-            --bg-bunker: #161412;        /* Crema oscuro/tinte ceniza */
-            --bg-tarjeta: #fbf9f5;       /* Papel antiguo satinado */
-            --azul-sorolla: #1b4b8a;     /* Azul marino Sorolla */
-            --naranja-acento: #d66613;   /* Naranja editorial */
-            --verde-oliva: #4a6b56;      /* Verde clásico */
-            --texto-oscuro: #2a241f;     /* Tipografía de tarjeta */
-            --texto-claro: #ece5d8;      /* Tipografía de fondo */
+            --bg-bunker: #12110f;
+            --bg-tarjeta: #fcfaf5;
+            --azul-sorolla: #1b4b8a;
+            --naranja-acento: #d66613;
+            --verde-oliva: #4a6b56;
+            --texto-oscuro: #2a241f;
+            --texto-claro: #ece5d8;
         }
 
         body {
             background-color: var(--bg-bunker);
             color: var(--texto-claro);
             font-family: 'Georgia', serif;
-            margin: 0;
-            padding: 0;
-            scroll-behavior: smooth;
+            margin: 0; padding: 0;
         }
 
         header {
             text-align: center;
             padding: 50px 20px;
-            border-bottom: 3px solid var(--naranja-acento);
-            background: #201c18;
+            border-bottom: 4px solid var(--naranja-acento);
+            background: #1a1815;
         }
 
-        header h1 {
-            font-size: 2.6rem;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            margin: 0;
-            color: var(--texto-claro);
-        }
-
+        header h1 { font-size: 2.8rem; text-transform: uppercase; margin: 0; }
         header h1 span { color: var(--naranja-acento); }
-        header p { font-style: italic; color: #a29887; margin: 10px 0 0 0; }
 
         .filtro-bar {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            margin: 30px 0;
+            position: sticky; top: 0; z-index: 100;
+            background: rgba(18, 17, 15, 0.95);
+            backdrop-filter: blur(8px);
+            display: flex; justify-content: center; gap: 10px;
+            padding: 15px; border-bottom: 1px solid #333;
             flex-wrap: wrap;
-            padding: 0 20px;
         }
 
         .btn-filtro {
-            background: transparent;
-            border: 2px solid var(--azul-sorolla);
-            color: var(--texto-claro);
-            padding: 10px 20px;
-            font-family: 'Georgia', serif;
-            cursor: pointer;
-            border-radius: 4px;
-            transition: background 0.2s, color 0.2s;
+            background: none; border: 1px solid var(--azul-sorolla);
+            color: var(--texto-claro); padding: 6px 12px;
+            font-size: 0.8rem; cursor: pointer; text-transform: uppercase;
         }
 
-        .btn-filtro.active, .btn-filtro:hover {
-            background-color: var(--azul-sorolla);
-            color: var(--bg-tarjeta);
-        }
+        .btn-filtro.active, .btn-filtro:hover { background: var(--azul-sorolla); color: white; }
 
-        /* Optimización de rendimiento: Grid contenedor */
+        /* Grid optimizado con CSS Grid Virtual para alto rendimiento */
         .galeria-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px 50px 20px;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px; padding: 30px 20px;
+            max-width: 1400px; margin: auto;
         }
 
-        .tarjeta-obra {
-            background-color: var(--bg-tarjeta);
-            color: var(--texto-oscuro);
-            border-radius: 6px;
-            overflow: hidden;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        .obra-card {
+            background: var(--bg-tarjeta); color: var(--texto-oscuro);
+            border-radius: 4px; overflow: hidden; cursor: pointer;
             transition: transform 0.2s;
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            contain: content; /* Optimización extra para el navegador */
+            display: flex; flex-direction: column;
+            contain: content; /* Evita que el navegador recalcule toda la web */
         }
 
-        .tarjeta-obra:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 25px rgba(214, 102, 19, 0.3);
+        .obra-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(214,102,19,0.3); }
+
+        .img-container { width: 100%; height: 200px; background: #e0dbd0; overflow: hidden; }
+        .img-container img { width: 100%; height: 100%; object-fit: cover; }
+
+        .card-body { padding: 15px; }
+        .card-body h3 { margin: 0; font-size: 1rem; color: var(--azul-sorolla); }
+        .card-body .autor { font-weight: bold; color: var(--verde-oliva); font-size: 0.8rem; margin: 5px 0; }
+
+        /* Modal */
+        .modal {
+            position: fixed; top:0; left:0; width:100%; height:100%;
+            background: rgba(0,0,0,0.9); display:none;
+            justify-content:center; align-items:center; z-index: 1000; padding: 20px;
         }
 
-        .contenedor-img {
-            width: 100%;
-            height: 240px;
-            background-color: #e0dbd0;
-            overflow: hidden;
+        .modal-content {
+            background: var(--bg-tarjeta); color: var(--texto-oscuro);
+            max-width: 800px; width: 100%; max-height: 85vh;
+            display: grid; grid-template-columns: 1fr;
+            border-radius: 6px; overflow: hidden; position: relative;
         }
 
-        .contenedor-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .info-obra {
-            padding: 18px;
-            display: flex;
-            flex-direction: column;
-            flex-grow: 1;
-        }
-
-        .info-obra h3 {
-            margin: 0 0 6px 0;
-            color: var(--azul-sorolla);
-            font-size: 1.2rem;
-        }
-
-        .info-obra .artista {
-            font-weight: bold;
-            color: var(--verde-oliva);
-            font-size: 0.9rem;
-            margin-bottom: 8px;
-        }
-
-        .info-obra .resumen {
-            font-size: 0.85rem;
-            line-height: 1.4;
-            color: #4e463c;
-            margin: 0;
-        }
-
-        /* Ventana Emergente Ultrarrápida */
-        .modal-bunker {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background-color: rgba(10, 8, 7, 0.95);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            opacity: 0;
-            pointer-events: none;
-            z-index: 1000;
-            transition: opacity 0.2s ease;
-        }
-
-        .modal-bunker.show {
-            opacity: 1;
-            pointer-events: auto;
-        }
-
-        .modal-contenido {
-            background-color: var(--bg-tarjeta);
-            color: var(--texto-oscuro);
-            max-width: 850px;
-            width: 90%;
-            max-height: 85vh;
-            border-radius: 8px;
-            overflow-y: auto;
-            position: relative;
-            border: 2px solid var(--naranja-acento);
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-
-        @media(min-width: 768px) {
-            .modal-contenido { grid-template-columns: 1fr 1fr; }
-        }
-
-        .modal-cerrar {
-            position: absolute;
-            top: 15px; right: 15px;
-            background: var(--naranja-acento);
-            color: white; border: none;
-            width: 32px; height: 32px;
-            border-radius: 50%; font-size: 1.2rem;
-            cursor: pointer; z-index: 10;
-        }
-
-        .modal-img-box img { width: 100%; height: 100%; object-fit: cover; min-height: 320px; }
-        .modal-detalles-box { padding: 30px; display: flex; flex-direction: column; justify-content: center; }
-        .modal-detalles-box h2 { margin: 0 0 10px 0; color: var(--azul-sorolla); font-size: 1.6rem; }
-        .modal-meta { font-size: 0.85rem; margin-bottom: 15px; border-left: 3px solid var(--naranja-acento); padding-left: 10px; }
-        .modal-meta p { margin: 4px 0; }
-        .modal-desc { font-size: 0.9rem; line-height: 1.5; color: #3d352e; }
+        @media (min-width: 768px) { .modal-content { grid-template-columns: 1fr 1fr; } }
+        .modal-img { width: 100%; height: 100%; object-fit: cover; background: #000; }
+        .modal-text { padding: 30px; overflow-y: auto; }
+        .close-btn { position: absolute; top: 15px; right: 15px; font-size: 1.8rem; cursor: pointer; color: var(--naranja-acento); }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Historia da <span>Arte</span></h1>
-        <p>Catálogo Completo de Grandes Obras de la Humanidad — Edición Fluida</p>
-    </header>
+<header>
+    <h1>HISTORIA DA <span>ARTE</span></h1>
+    <p>Gran Enciclopedia Virtual — 300+ Obras Maestras</p>
+</header>
 
-    <div class="filtro-bar">
-        <button class="btn-filtro active" onclick="filtrarObras('Todas', this)">Todo el Legado</button>
-        <button class="btn-filtro" onclick="filtrarObras('Antigüedad', this)">Edad Antigua</button>
-        <button class="btn-filtro" onclick="filtrarObras('Renacimiento', this)">Renacimiento</button>
-        <button class="btn-filtro" onclick="filtrarObras('Barroco', this)">Barroco</button>
-        <button class="btn-filtro" onclick="filtrarObras('Impresionismo', this)">Impresionismo e Hitos</button>
-    </div>
+<div class="filtro-bar">
+    <button class="btn-filtro active" onclick="filtrar('Todas')">Todas</button>
+    <button class="btn-filtro" onclick="filtrar('Antigüedad')">Antigüedad</button>
+    <button class="btn-filtro" onclick="filtrar('Medieval')">Medieval</button>
+    <button class="btn-filtro" onclick="filtrar('Renacimiento')">Renacimiento</button>
+    <button class="btn-filtro" onclick="filtrar('Barroco')">Barroco</button>
+    <button class="btn-filtro" onclick="filtrar('Contemporáneo')">Contemporáneo</button>
+</div>
 
-    <main class="galeria-grid" id="galeria"></main>
+<main class="galeria-grid" id="main-grid"></main>
 
-    <div class="modal-bunker" id="modal-obra" onclick="if(event.target===this) cerrarModal()">
-        <div class="modal-contenido">
-            <button class="modal-cerrar" onclick="cerrarModal()">&times;</button>
-            <div class="modal-img-box">
-                <img id="modal-img" src="" alt="">
-            </div>
-            <div class="modal-detalles-box">
-                <h2 id="modal-titulo"></h2>
-                <div class="modal-meta">
-                    <p><strong>Artista:</strong> <span id="modal-artista"></span></p>
-                    <p><strong>Año:</strong> <span id="modal-ano"></span></p>
-                    <p><strong>Ubicación:</strong> <span id="modal-museo"></span></p>
-                </div>
-                <p class="modal-desc" id="modal-descripcion"></p>
-            </div>
+<div class="modal" id="modal" onclick="if(event.target===this) cerrarModal()">
+    <div class="modal-content">
+        <span class="close-btn" onclick="cerrarModal()">&times;</span>
+        <img id="m-img" class="modal-img">
+        <div class="modal-text">
+            <h2 id="m-titulo"></h2>
+            <p><strong id="m-autor"></strong> | <span id="m-fecha"></span></p>
+            <p id="m-desc" style="line-height: 1.5; color: #333;"></p>
+            <p><strong>Ubicación:</strong> <span id="m-loc"></span></p>
         </div>
     </div>
+</div>
 
-    <script>
-        // Catálogo extendido con las grandes obras del manual de Historia del Arte
-        const catálogoObras = [
-            {
-                "id": 1,
-                "titulo": "Paseo a orillas del mar",
-                "artista": "Joaquín Sorolla",
-                "estilo": "Impresionismo",
-                "ano": "1909",
-                "museo": "Museo Sorolla (Madrid)",
-                "resumen": "La emblemática portada del libro. Una obra maestra del luminismo mediterráneo.",
-                "descripcion": "Muestra a la esposa e hija del pintor paseando por la costa valenciana. Destaca la fluidez del viento en las telas blancas y los reflejos azules y malvas del agua marina.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Paseo_a_orillas_del_mar_-_Joaqu%C3%ADn_Sorolla.jpg/500px-Paseo_a_orillas_del_mar_-_Joaqu%C3%ADn_Sorolla.jpg"
-            },
-            {
-                "id": 2,
-                "titulo": "El Partenón",
-                "artista": "Ictino y Calícrates",
-                "estilo": "Antigüedad",
-                "ano": "447 a.C.",
-                "museo": "Acrópolis de Atenas (Grecia)",
-                "resumen": "La cumbre de la arquitectura clásica y el orden dórico.",
-                "descripcion": "Templo consagrado a la diosa Atenea Partenos. Es el símbolo imperecedero de la armonía matemática, la proporción áurea y la democracia de la Grecia Clásica.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/500px-The_Parthenon_in_Athens.jpg"
-            },
-            {
-                "id": 3,
-                "titulo": "El Discóbolo",
-                "artista": "Mirón",
-                "estilo": "Antigüedad",
-                "ano": "450 a.C.",
-                "museo": "Museo Nazionale Romano (Italia)",
-                "resumen": "El estudio definitivo del cuerpo humano en máxima tensión geométrica.",
-                "descripcion": "Representa a un atleta en el instante justo anterior a lanzar el disco. Es el ejemplo perfecto del concepto de 'kairós' (momento fugaz) y la armonía del cuerpo humano.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Townley_Discobolus_Museum_of_the_Ancient_Agora_Atenas.jpg/500px-Townley_Discobolus_Museum_of_the_Ancient_Agora_Atenas.jpg"
-            },
-            {
-                "id": 4,
-                "titulo": "El Nacimiento de Venus",
-                "artista": "Sandro Botticelli",
-                "estilo": "Renacimiento",
-                "ano": "1485",
-                "museo": "Galería Uffizi (Florencia)",
-                "resumen": "La alegoría neoplatónica de la belleza del Quattrocento.",
-                "descripcion": "Una de las obras cumbre del Renacimiento italiano. Representa la llegada de la diosa Venus a la playa sobre una concha, empujada por los dioses del viento, simbolizando el renacer cultural.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project.jpg/500px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project.jpg"
-            },
-            {
-                "id": 5,
-                "titulo": "La Mona Lisa",
-                "artista": "Leonardo da Vinci",
-                "estilo": "Renacimiento",
-                "ano": "1503",
-                "museo": "Museo del Louvre (París)",
-                "resumen": "El retrato definitivo mediante el uso revolucionario del sfumato.",
-                "descripcion": "También conocida como La Gioconda. Destaca por la revolucionaria perspectiva atmosférica de Da Vinci y la enigmática expresión que ha cautivado a la humanidad durante siglos.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/500px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
-            },
-            {
-                "id": 6,
-                "titulo": "David",
-                "artista": "Miguel Ángel",
-                "estilo": "Renacimiento",
-                "ano": "1504",
-                "museo": "Galería de la Academia (Florencia)",
-                "resumen": "La máxima expresión del ideal de fuerza y antropocentrismo.",
-                "descripcion": "Esculpido en un único bloque de mármol de Carrara, representa al rey David antes de enfrentarse a Goliat. Muestra la 'terribilitá' de Miguel Ángel en la mirada fija y la tensión muscular.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Florence_-_David_by_Michelangelo_after_restoration_-_2024.jpg/500px-Florence_-_David_by_Michelangelo_after_restoration_-_2024.jpg"
-            },
-            {
-                "id": 7,
-                "titulo": "Las Meninas",
-                "artista": "Diego Velázquez",
-                "estilo": "Barroco",
-                "ano": "1656",
-                "museo": "Museo del Prado (Madrid)",
-                "resumen": "La teología de la pintura y el juego maestro del espacio y la luz.",
-                "descripcion": "Obra cumbre del Barroco español. Velázquez crea una composición compleja donde incluye a la familia de Felipe IV, a sí mismo pintando, y un juego de espejos que introduce al espectador en el cuadro.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/500px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg"
-            },
-            {
-                "id": 8,
-                "titulo": "El Éxtasis de Santa Teresa",
-                "artista": "Gian Lorenzo Bernini",
-                "estilo": "Barroco",
-                "ano": "1652",
-                "museo": "Iglesia de Santa María de la Victoria (Roma)",
-                "resumen": "La fusión total de arquitectura, escultura y luz mística.",
-                "descripcion": "Obra maestra de la escultura barroca italiana. Plasma la experiencia mística de la transverberación de la santa con un dramatismo teatral y pliegues de mármol que desafían la gravedad.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Extasis_Santa_Teresa_Bernini_2.jpg/500px-Extasis_Santa_Teresa_Bernini_2.jpg"
-            },
-            {
-                "id": 9,
-                "titulo": "La Vocación de San Mateo",
-                "artista": "Caravaggio",
-                "estilo": "Barroco",
-                "ano": "1600",
-                "museo": "San Luis de los Franceses (Roma)",
-                "resumen": "El nacimiento del tenebrismo y el claroscuro realista.",
-                "descripcion": "Caravaggio rompe con el idealismo renacentista usando tabernas reales y personajes de la calle. La luz divina entra en diagonal apuntando directamente al futuro apóstol Mateo.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/The_Calling_of_Saint_Matthew-Caravaggio_%281599-1600%29.jpg/500px-The_Calling_of_Saint_Matthew-Caravaggio_%281599-1600%29.jpg"
-            },
-            {
-                "id": 10,
-                "titulo": "Impresión, sol naciente",
-                "artista": "Claude Monet",
-                "estilo": "Impresionismo",
-                "ano": "1872",
-                "museo": "Museo Marmottan Monet (París)",
-                "resumen": "La obra fundacional que dio nombre al movimiento impresionista.",
-                "descripcion": "Pintado directamente al aire libre (plein air) en el puerto de Le Havre. Prioriza la captura de la luz fugaz y los reflejos del agua mediante pinceladas rápidas y puras.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/500px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg"
-            },
-            {
-                "id": 11,
-                "titulo": "La Noche Estrellada",
-                "artista": "Vincent van Gogh",
-                "estilo": "Impresionismo",
-                "ano": "1889",
-                "museo": "MoMA (Nueva York)",
-                "resumen": "La proyección psicológica de las emociones sobre la naturaleza.",
-                "descripcion": "Pintada desde el sanatorio de Saint-Rémy. Los remolinos de viento y estrellas representan el estado mental convulso del artista a través de texturas densas de óleo.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/ea/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/500px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
-            },
-            {
-                "id": 12,
-                "titulo": "El Pensador",
-                "artista": "Auguste Rodin",
-                "estilo": "Escultura",
-                "ano": "1904",
-                "museo": "Museo Rodin (París)",
-                "resumen": "El nacimiento de la escultura moderna basada en la expresión y la textura.",
-                "descripcion": "Originalmente modelada para 'Las Puertas del Infierno'. Representa la meditación profunda y la lucha psicológica interna del ser humano reflejada en un cuerpo musculoso y tenso.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Le_Penseur_-_Mus%C3%A9e_Rodin.jpg/500px-Le_Penseur_-_Mus%C3%A9e_Rodin.jpg"
-            }
-        ];
+<script>
+let db = [];
+const grid = document.getElementById('main-grid');
 
-        const grid = document.getElementById('galeria');
+// CARGA ASÍNCRONA: Fluidez total al separar los datos del diseño
+async function cargarBaseDeDatos() {
+    try {
+        const respuesta = await fetch('obras.json');
+        db = await respuesta.json();
+        render("Todas");
+    } catch (error) {
+        console.error("Error cargando el catálogo de arte:", error);
+    }
+}
 
-        // MEJORA EXTREMA DE FLUIDEZ: Construimos toda la cadena HTML en memoria y la inyectamos una única vez
-        function renderizarGaleria(lista) {
-            let htmlBuffer = ""; 
-            lista.forEach(obra => {
-                htmlBuffer += `
-                    <div class="tarjeta-obra" onclick="abrirDetalles(${obra.id})">
-                        <div class="contenedor-img">
-                            <img src="${obra.img}" alt="${obra.titulo}" loading="lazy">
-                        </div>
-                        <div class="info-obra">
-                            <h3>${obra.titulo}</h3>
-                            <div class="artista">${obra.artista}</div>
-                            <p class="resumen">${obra.resumen}</p>
-                        </div>
-                    </div>
-                `;
-            });
-            grid.innerHTML = htmlBuffer; 
-        }
+function render(filtro) {
+    let fragment = "";
+    // Optimización: filtrado directo en memoria ultrarrápido
+    const filtradas = filtro === "Todas" ? db : db.filter(o => o.e === filtro);
+    
+    filtradas.forEach(o => {
+        fragment += `
+            <div class="obra-card" onclick="abrir(${o.id})">
+                <div class="img-container">
+                    <img src="${o.i}" loading="lazy" alt="${o.t}">
+                </div>
+                <div class="card-body">
+                    <h3>${o.t}</h3>
+                    <p class="autor">${o.a}</p>
+                </div>
+            </div>`;
+    });
+    grid.innerHTML = fragment;
+}
 
-        function filtrarObras(estilo, elementoBoton) {
-            document.querySelectorAll('.btn-filtro').forEach(btn => btn.classList.remove('active'));
-            elementoBoton.classList.add('active');
+function filtrar(estilo) {
+    document.querySelectorAll('.btn-filtro').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    render(estilo);
+}
 
-            if (estilo === 'Todas') {
-                renderizarGaleria(catálogoObras);
-            } else {
-                const filtradas = catálogoObras.filter(o => o.estilo === estilo);
-                renderizarGaleria(filtradas);
-            }
-        }
+function abrir(id) {
+    const o = db.find(x => x.id === id);
+    document.getElementById('m-img').src = o.i;
+    document.getElementById('m-titulo').innerText = o.t;
+    document.getElementById('m-autor').innerText = o.a;
+    document.getElementById('m-fecha').innerText = o.f;
+    document.getElementById('m-desc').innerText = o.d;
+    document.getElementById('m-loc').innerText = o.l;
+    document.getElementById('modal').style.display = "flex";
+}
 
-        function abrirDetalles(id) {
-            const obra = catálogoObras.find(o => o.id === id);
-            if (!obra) return;
+function cerrarModal() { document.getElementById('modal').style.display = "none"; }
 
-            document.getElementById('modal-img').src = obra.img;
-            document.getElementById('modal-titulo').textContent = obra.titulo;
-            document.getElementById('modal-artista').textContent = obra.artista;
-            document.getElementById('modal-ano').textContent = obra.ano;
-            document.getElementById('modal-museo').textContent = obra.museo;
-            document.getElementById('modal-descripcion').textContent = obra.descripcion;
-
-            document.getElementById('modal-obra').classList.add('show');
-        }
-
-        function cerrarModal() {
-            document.getElementById('modal-obra').classList.remove('show');
-        }
-
-        // Renderizado inicial limpio e instantáneo
-        renderizarGaleria(catálogoObras);
-    </script>
+// Inicializar la carga inteligente
+cargarBaseDeDatos();
+</script>
 </body>
 </html>
