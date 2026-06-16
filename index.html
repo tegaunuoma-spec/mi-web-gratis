@@ -2,63 +2,50 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Búnker de Audio: Catálogo Curado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de la Humanidad</title>
     <style>
-        /* Estilos base (Mismo tono oscuro) */
-        body { background: #161920; color: #e4e7ed; font-family: sans-serif; display: flex; justify-content: center; padding: 20px; }
-        .panel { width: 100%; max-width: 500px; background: #1f242e; padding: 20px; border-radius: 15px; }
-        .categoria { margin-top: 20px; }
-        .track-card { 
-            display: flex; align-items: center; background: #161920; 
-            margin: 10px 0; padding: 10px; border-radius: 10px; cursor: pointer; border: 1px solid #2d3545;
+        :root {
+            --bg: #101010;
+            --texto: #d1d1d1;
+            --acento: #c5a059; /* Dorado envejecido */
         }
-        .track-card img { width: 50px; height: 50px; border-radius: 5px; margin-right: 15px; }
-        .info { font-size: 0.8rem; }
-        .info h4 { margin: 0; color: #6c8eae; }
+        body { background-color: var(--bg); color: var(--texto); font-family: 'Georgia', serif; margin: 0; padding: 20px; }
+        header { text-align: center; margin-bottom: 50px; border-bottom: 1px solid #333; padding-bottom: 20px; }
+        .galeria { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: auto; }
+        .obra { background: #1a1a1a; padding: 15px; border-radius: 5px; transition: transform 0.3s; }
+        .obra:hover { transform: translateY(-10px); border: 1px solid var(--acento); }
+        .obra img { width: 100%; height: 250px; object-fit: cover; border-radius: 2px; }
+        h2 { color: var(--acento); margin-top: 10px; }
     </style>
 </head>
 <body>
 
-<div class="panel">
-    <h1>Catálogo de Audio</h1>
-    <div id="contenedor-biblioteca"></div>
-    <audio id="player" controls style="width: 100%; margin-top: 20px;"></audio>
-</div>
+<header>
+    <h1>Galería de la Humanidad</h1>
+    <p>Un registro visual de nuestro legado</p>
+</header>
+
+<div class="galeria" id="lista-obras">
+    </div>
 
 <script>
-    // Tu Base de Datos categorizada
-    const biblioteca = [
-        {
-            genero: "Electrónica Alfa",
-            temas: [
-                { titulo: "Frecuencia 01", artista: "Babata Core", desc: "Beat profundo para enfoque.", img: "https://via.placeholder.com/50", url: "musica/musica_bunker.mp3" }
-            ]
-        },
-        {
-            genero: "Jazz Espacial",
-            temas: [
-                { titulo: "Nebulosa", artista: "Jazz Unit", desc: "Sonido atmosférico.", img: "https://via.placeholder.com/50", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" }
-            ]
-        }
+    const obras = [
+        { titulo: "La Mona Lisa", artista: "Leonardo da Vinci", desc: "El retrato más famoso del Renacimiento.", img: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" },
+        { titulo: "La Noche Estrellada", artista: "Vincent van Gogh", desc: "Una visión expresionista del cielo nocturno.", img: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
+        { titulo: "El Pensador", artista: "Auguste Rodin", desc: "La representación de la filosofía y el intelecto humano.", img: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Le_Penseur_-_Mus%C3%A9e_Rodin.jpg" }
     ];
 
-    const contenedor = document.getElementById('contenedor-biblioteca');
-    const player = document.getElementById('player');
-
-    // Generar la interfaz dinámicamente
-    biblioteca.forEach(cat => {
-        contenedor.innerHTML += `<h3>${cat.genero}</h3>`;
-        cat.temas.forEach(tema => {
-            contenedor.innerHTML += `
-                <div class="track-card" onclick="document.getElementById('player').src='${tema.url}'; document.getElementById('player').play()">
-                    <img src="${tema.img}">
-                    <div class="info">
-                        <h4>${tema.titulo} - ${tema.artista}</h4>
-                        <p>${tema.desc}</p>
-                    </div>
-                </div>
-            `;
-        });
+    const contenedor = document.getElementById('lista-obras');
+    obras.forEach(obra => {
+        contenedor.innerHTML += `
+            <div class="obra">
+                <img src="${obra.img}" alt="${obra.titulo}">
+                <h2>${obra.titulo}</h2>
+                <p><strong>${obra.artista}</strong></p>
+                <p>${obra.desc}</p>
+            </div>
+        `;
     });
 </script>
 </body>
